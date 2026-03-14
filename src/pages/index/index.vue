@@ -12,3 +12,7 @@ import InputEntry from '@/components/InputEntry.vue'
     <sar-button>按钮</sar-button>
   </view>
 </template>
+
+<style lang="scss" scoped>
+
+</style>
