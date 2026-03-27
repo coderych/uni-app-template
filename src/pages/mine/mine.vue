@@ -1,5 +1,7 @@
 <script setup lang="ts">
-
+definePage({
+  layout: 'tabbar',
+})
 </script>
 
 <template>

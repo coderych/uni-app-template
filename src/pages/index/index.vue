@@ -1,14 +1,17 @@
 <script setup lang="ts">
-import AppFooter from '@/components/AppFooter.vue'
-import AppLogos from '@/components/AppLogos.vue'
-import InputEntry from '@/components/InputEntry.vue'
+import { toast } from 'sard-uniapp'
+
+definePage({
+  layout: 'tabbar',
+})
+
+function handleClick() {
+  toast.success('按钮点击成功')
+}
 </script>
 
 <template>
-  <view px-10 py-20 text-center>
-    <AppLogos />
-    <InputEntry />
-    <AppFooter />
+  <view px-10 py-20 text-center @click="handleClick">
     <sar-button>按钮</sar-button>
   </view>
 </template>
