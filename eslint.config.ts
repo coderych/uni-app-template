@@ -6,4 +6,7 @@ export default uniHelper({
   unocss: true,
   isInEditor: false,
   formatters: true,
+  rules: {
+    'no-console': 'off',
+  },
 })
